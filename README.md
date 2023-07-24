@@ -36,6 +36,10 @@ The following scripts are available in this repository:
 - 07a_bkmr_models_madres.R: code to fit BKMR models for the MADRES cohort using pregnancy-wide exposures
 - 07b_bkmr_models_madres_trimesters.R: code to fit BKMR models for the MADRES cohort using hierarchical variable selection for exposures averaged by trimester
 
+## Acknowledgements
+
+This work was supported by the Office Of The Director, National Institutes Of Health of the National Institutes of Health under Award Number U2COD023375. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+
 ## References
 
 Bobb J (2023). _bkmr: Bayesian Kernel Machine Regression_. R package version 0.2.2,

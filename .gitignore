@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+/code/data_cleaning
+/data
+/documentation
+/figs
+/literature
+/manuscripts
+/meetings
+/presentations
+/results
+/secondary_data

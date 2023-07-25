@@ -1,14 +1,13 @@
 
 # EC0584: Examining the joint effects of prenatal exposures to traffic-related air pollutants, other environmental hazards, and social stressors on childhood obesity outcomes
-Analytic code for ECHO OIF Cycle 4 Project EC0548a.
 
 EC0548 is an OIF-funded ECHO project investigating the effects of neighborhood-level environmental exposures on BMI in early childhood. The goals of EC0548 are to:
 
 - Ascertain associations between individual neighborhood-level exposures and BMI z-scores in early childhood
 - Explore the effects of the mixture of neighborhood-level exposures on BMI z-scores using machine learning methods
-- Examine whether using study-specific models of traffic-related air pollution (TRAP) improves the models used to ascertain these associations relative to GIS-based measures of TRAP exposure.
+- Examine whether using study-specific models of traffic-related air pollution (TRAP) improves the models used to measure these associations relative to GIS-based measures of TRAP exposure.
 
-This study brings together data from two ECHO cohorts: Healthy Start (based in the Denver metropolitan area) and MADRES (based in Los Angeles). 
+This study brings together data from two ECHO cohorts: [Healthy Start](https://healthystartstudy.org/) (based in the Denver metropolitan area) and [MADRES](https://madres.usc.edu/) (based in Los Angeles). 
 
 This repository contains code used to fit the regression models described in our manuscript (LINK). An "operations manual" with information on how we derived our exposure variables has been provided (LINK HERE) and details how we developed our exposure data sets. The operations manual includes links to the publicly available data sets used in this study. A data dictionary defining each variable in the data set is also available (LINK HERE).
 

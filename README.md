@@ -1,5 +1,7 @@
-
 # EC0584: Examining the joint effects of prenatal exposures to traffic-related air pollutants, other environmental hazards, and social stressors on childhood obesity outcomes
+
+Sheena Martenies
+July 25, 2023
 
 EC0548 is an OIF-funded ECHO project investigating the effects of neighborhood-level environmental exposures on BMI in early childhood. The goals of EC0548 are to:
 
@@ -9,7 +11,7 @@ EC0548 is an OIF-funded ECHO project investigating the effects of neighborhood-l
 
 This study brings together data from two ECHO cohorts: [Healthy Start](https://healthystartstudy.org/) (based in the Denver metropolitan area) and [MADRES](https://madres.usc.edu/) (based in Los Angeles). 
 
-This repository contains code used to fit the regression models described in our manuscript (LINK). An "operations manual" with information on how we derived our exposure variables has been provided (LINK HERE) and details how we developed our exposure data sets. The operations manual includes links to the publicly available data sets used in this study. A data dictionary defining each variable in the data set is also available (LINK HERE).
+This repository contains code used to fit the regression models described in our manuscript. A ["manual of operations"](https://smartenies.github.io/echo_oif_ec0548/manual_of_operations) with information on how we derived our exposure variables has also been provided and details how we developed our exposure data sets. The operations manual includes links to the publicly available data sets used in this study. A [data dictionary](https://smartenies.github.io/echo_oif_ec0548/data_dictionary) defining each variable in the data set is also available.
 
 Participant data from the Healthy Start and MADRES cohorts were shared with the primary investigator (Sheena Martenies) under data use agreements with their respective universities. Researchers interested in using these data should contact the PIs of each cohort: Dana Dabelea (Healthy Start, University of Colorado Anschutz Medical Campus) and Tracy Bastain or Carrie Breton (MADRES; University of Southern California).
 

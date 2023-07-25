@@ -1,5 +1,6 @@
 # EC0548a Manual of Operations
 
+Sheena Martenies
 July 25, 2023
 
 The following outlines the data manipulation steps used to assign exposures to environmental and social exposures at the neighborhood level for Healthy Start and MADRES participants. These exposures were obtained from secondary, publicly available data sets.

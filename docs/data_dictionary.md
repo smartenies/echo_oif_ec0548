@@ -1,6 +1,6 @@
 # EC0548a Data Dictionary
 
-Sheena Martenies
+Sheena Martenies 
 July 25, 2023
 
 The following table summarized the variables used in this analysis:

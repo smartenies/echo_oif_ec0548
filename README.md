@@ -1,6 +1,7 @@
 # EC0584: Examining the joint effects of prenatal exposures to traffic-related air pollutants, other environmental hazards, and social stressors on childhood obesity outcomes
 
 Sheena Martenies
+
 July 25, 2023
 
 EC0548 is an OIF-funded ECHO project investigating the effects of neighborhood-level environmental exposures on BMI in early childhood. The goals of EC0548 are to:

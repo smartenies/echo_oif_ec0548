@@ -1,7 +1,5 @@
 # EC0548a: Examining the joint effects of prenatal exposures to traffic-related air pollutants, other environmental hazards, and social stressors on childhood obesity outcomes
 
-[![DOI](https://zenodo.org/badge/668888642.svg)](https://zenodo.org/badge/latestdoi/668888642)
-
 Sheena Martenies
 
 July 25, 2023

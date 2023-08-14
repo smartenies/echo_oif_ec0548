@@ -95,7 +95,7 @@ fit.qgcomp.b_0 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + dist_roads
                            ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                            concep_spring + concep_summer + concep_fall + male, 
                          data = df_0, expnms = exps, family = gaussian(),
-                         bayes = T, seed = 123)
+                         bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -163,7 +163,7 @@ fit.qgcomp.b_6 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + dist_roads
                                 ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                 concep_spring + concep_summer + concep_fall + male, 
                               data = df_6, expnms = exps, family = gaussian(),
-                              bayes = T, seed = 123)
+                              bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -232,7 +232,7 @@ fit.qgcomp.b_12 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + dist_road
                                 ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                 concep_spring + concep_summer + concep_fall + male, 
                               data = df_12, expnms = exps, family = gaussian(),
-                              bayes = T, seed = 123)
+                              bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -301,7 +301,7 @@ fit.qgcomp.b_24 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + dist_road
                                  ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                  concep_spring + concep_summer + concep_fall + male, 
                                data = df_24, expnms = exps, family = gaussian(),
-                               bayes = T, seed = 123)
+                               bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -390,7 +390,7 @@ fit.qgcomp.b_0 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + bc_pred +
                                 ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                 concep_spring + concep_summer + concep_fall + male, 
                               data = df_0, expnms = exps, family = gaussian(),
-                              bayes = T, seed = 123)
+                              bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -459,7 +459,7 @@ fit.qgcomp.b_6 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + bc_pred +
                                 ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                 concep_spring + concep_summer + concep_fall + male, 
                               data = df_6, expnms = exps, family = gaussian(),
-                              bayes = T, seed = 123)
+                              bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -528,7 +528,7 @@ fit.qgcomp.b_12 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + bc_pred +
                                  ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                  concep_spring + concep_summer + concep_fall + male, 
                                data = df_12, expnms = exps, family = gaussian(),
-                               bayes = T, seed = 123)
+                               bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",
@@ -597,7 +597,7 @@ fit.qgcomp.b_24 <- qgcomp.boot(zbmi ~ pm + no2 + o3 + rhavg + tavg_c + bc_pred +
                                  ppbmi_underweight + ppbmi_overweight + ppbmi_obese_i + ppbmi_obese_ii + ppbmi_obese_iii + 
                                  concep_spring + concep_summer + concep_fall + male, 
                                data = df_24, expnms = exps, family = gaussian(),
-                               bayes = T, seed = 123)
+                               bayes = T, seed = 123, B = 1000)
 
 #' Summarize results
 temp <- tibble(exposure_period = "pregnancy",

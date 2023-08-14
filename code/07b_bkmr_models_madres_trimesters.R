@@ -63,7 +63,7 @@ groups <- rep(c(1:3), 15)
 #' out_period = 0
 #' --------------------------------------
 
-df <- filter(hs_data, exp_period != "pregnancy" & out_period == 0) %>%
+df <- filter(md_data, exp_period != "pregnancy" & out_period == 0) %>%
   na.omit()
 
 df_y <- select(df, pid, zbmi) %>%
@@ -112,12 +112,14 @@ fit_bkmr <- kmbayes(y = y, Z = Z, X = X, iter = 20000,
 model_name <- paste0("BKMR_", "trimesters", "_", 0, "_zbmi_md.rdata")
 save(df, y, Z, X, fit_bkmr, file = here::here("results/bkmr_results", model_name))
 
+#load(file = here::here("results/bkmr_results", model_name))
+
 #' Trace plots for inspection
 graphics.off()
 jpeg(file = here::here("figs/bkmr_plots/", paste0("BKMR_trace_", "trimesters",
                                                   "_", 0, "_zbmi_md.jpeg")))
 par(mfrow=c(3,1))
-TracePlot(fit = fit_bkmr, par = "beta", comp = 5)
+TracePlot(fit = fit_bkmr, par = "beta", comp = 12)
 TracePlot(fit = fit_bkmr, par = "sigsq.eps")
 TracePlot(fit = fit_bkmr, par = "r", comp = 1)
 dev.off()
@@ -202,7 +204,7 @@ save(fit_pips,
 #' out_period = 6
 #' --------------------------------------
 
-df <- filter(hs_data, exp_period != "pregnancy" & out_period == 6) %>%
+df <- filter(md_data, exp_period != "pregnancy" & out_period == 6) %>%
   na.omit()
 
 df_y <- select(df, pid, zbmi) %>%
@@ -341,7 +343,7 @@ save(fit_pips,
 #' out_period = 12
 #' --------------------------------------
 
-df <- filter(hs_data, exp_period != "pregnancy" & out_period == 12) %>%
+df <- filter(md_data, exp_period != "pregnancy" & out_period == 12) %>%
   na.omit()
 
 df_y <- select(df, pid, zbmi) %>%
@@ -492,7 +494,7 @@ groups <- rep(c(1:3), 15)
 #' out_period = 0
 #' --------------------------------------
 
-df <- filter(hs_data, exp_period != "pregnancy" & out_period == 0) %>%
+df <- filter(md_data, exp_period != "pregnancy" & out_period == 0) %>%
   na.omit()
 
 df_y <- select(df, pid, zbmi) %>%
@@ -631,7 +633,7 @@ save(fit_pips,
 #' out_period = 6
 #' --------------------------------------
 
-df <- filter(hs_data, exp_period != "pregnancy" & out_period == 6) %>%
+df <- filter(md_data, exp_period != "pregnancy" & out_period == 6) %>%
   na.omit()
 
 df_y <- select(df, pid, zbmi) %>%
@@ -770,7 +772,7 @@ save(fit_pips,
 #' out_period = 12
 #' --------------------------------------
 
-df <- filter(hs_data, exp_period != "pregnancy" & out_period == 12) %>%
+df <- filter(md_data, exp_period != "pregnancy" & out_period == 12) %>%
   na.omit()
 
 df_y <- select(df, pid, zbmi) %>%

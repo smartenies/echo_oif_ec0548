@@ -94,9 +94,9 @@ graphics.off()
 jpeg(file = here::here("figs/bkmr_plots/", paste0("BKMR_trace_", "pregnancy",
                                                   "_", 0, "_zbmi_hs.jpeg")))
 par(mfrow=c(3,1))
-TracePlot(fit = fit_bkmr, par = "beta", comp = 6)
+TracePlot(fit = fit_bkmr, par = "beta", comp = 9)
 TracePlot(fit = fit_bkmr, par = "sigsq.eps")
-TracePlot(fit = fit_bkmr, par = "r", comp = 3)
+TracePlot(fit = fit_bkmr, par = "r", comp = 15)
 dev.off()
 par(mfrow=c(1,1))
 
@@ -590,9 +590,9 @@ graphics.off()
 jpeg(file = here::here("figs/bkmr_plots/", paste0("BKMR_trace_", "pregnancy", 
                                                   "_", 0, "_zbmi_st_hs.jpeg")))
 par(mfrow=c(3,1))
-TracePlot(fit = fit_bkmr, par = "beta", comp = 1)
+TracePlot(fit = fit_bkmr, par = "beta", comp = 6)
 TracePlot(fit = fit_bkmr, par = "sigsq.eps")
-TracePlot(fit = fit_bkmr, par = "r", comp = 1)
+TracePlot(fit = fit_bkmr, par = "r", comp = 13)
 dev.off()
 par(mfrow=c(1,1))
 

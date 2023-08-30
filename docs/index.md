@@ -23,7 +23,6 @@ The following scripts are available in this repository:
 - 00_summary_figures.R: code to generate the figures used in the manuscript and supplemental materials
 - 00_summary_tables.R: code to generate the results tables presented in the manuscript and supplemental materials
 - 02_single_pol_linear_models.R: code to fit the linear regression models for each cohort individually
-- 03_single_pol_lmer_models.R: code to fit the linear mixed effect regression models for the combined cohort
 - 04a_qgcomp_models_healthy_start.R: code to fit the quantile-based g-computation models for the Healthy Start cohort using exposures averaged across pregnancy
 - 04b_qgcomp_models_healthy_start_t1.R: code to fit the quantile-based g-computation models for the Healthy Start cohort using exposures averaged during the first trimester
 - 04c_qgcomp_models_healthy_start_t2.R: code to fit the quantile-based g-computation models for the Healthy Start cohort using exposures averaged during the second trimester

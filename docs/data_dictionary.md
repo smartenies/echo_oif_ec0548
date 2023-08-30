@@ -1,5 +1,7 @@
 # EC0548a Data Dictionary
 
+[![DOI](https://zenodo.org/badge/668888642.svg)](https://zenodo.org/badge/latestdoi/668888642)
+
 Sheena Martenies 
 July 25, 2023
 
